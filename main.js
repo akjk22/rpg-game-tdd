@@ -1,6 +1,6 @@
-import { Character } from './character.js';
-import { Vampire } from './vampire.js';
-import { Gameboard } from './gameboard.js';
+// import { Character } from './character.js';
+// import { Vampire } from './vampire.js';
+// import { Gameboard } from './gameboard.js';
 // console.log(Character);
 // console.log(Vampire);
 

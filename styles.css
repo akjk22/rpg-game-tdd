@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rap-hero {
+  width: 20vw;
+  height: 20vw;
+}
+.rap-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+#rap, #studio {
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Let Me Ride'; 
+} 
+
+h3 {
+  font-family: 'Reisenberg 2.0';  
+  color: #000;
+}

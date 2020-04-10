@@ -4,24 +4,22 @@
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="plant-functionalpart2.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <title>Rap Battle</title>
+    <script type="text/javascript" src="rap-rpg.js"></script>
+    <script type="text/javascript" src="rap-main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" crossorigin="anonymous">
+    <title>Rap Quest</title>
   </head>
   <body>
     <div class="container">
-      <div class="grow-buttons">
-        <button class="btn-success" id="feed">Attack Player</button>
+      <h1>The Come Up</h1>
+     <img class="rap-hero" alt="marlon" src="marlon.jpg" />
+      <div class="rap-buttons">
+        <button class="btn-success" id="rap">Battle Rap</button>
+        <button class="btn-success" id="studio">Hit the Studio</button>
+        <button class="btn-success" id="promote">Talk to Promoters</button>
       </div>
-      <div class="grow-buttons">
-        <button class="btn-success" id="yuck"></button>
-      </div>
-      <h1>Your Plant's Values</h1>
-      <h3>Soil:<div id="soilResults">0</div></h3>
-      <!-- <div id="blueResult">
-      </div>  
-       <div id="yuckyResult">
-      </div> -->
+      <h3>Clout Level&#58;<span id="rapResults"></span></h3>
     </div>
   </body>
 </html>
