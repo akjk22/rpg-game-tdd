@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $('#rapper-selection').on('change', function(){
+		var rappervalue = $(this).val(); 
+			$("div.selection-results").hide();
+			$("#show"+rappervalue).show();
+			event.preventDefault();
+	});
 	$('#rap').click(() => {
 		const rapPoints = stateChanger(battle);
 		console.log(rapPoints);

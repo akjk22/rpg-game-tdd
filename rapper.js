@@ -61,6 +61,16 @@
 
 // const player1 = trainBattlePlayer("Rex");
 // console.log(player1);
+// let rapper;
+// function Rapper(health, wordplay, delivery, charisma) {
+// // this.classType = classType; (if there are different types of characters or rappers in this case)
+// this.health = health; 
+// this.wordplay =  wordplay;
+// this.delivery = delivery;
+// this.charisma = charisma;
+
+
+// }
 let rapper = {};
 
 const changeExperienceLevel = (prop) => {
